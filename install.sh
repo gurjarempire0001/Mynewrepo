@@ -1,7 +1,7 @@
 mkdir -p .devcontainer
 cat <<EOL > .devcontainer/devcontainer.json
 {
-    "name": "My Codespace",
+    "name": "Mynewrepo",
     "image": "mcr.microsoft.com/vscode/devcontainers/python:3.8",
     "postStartCommand": "python3 /workspaces/Danger-Vip-DDOS/Danger.py",
     "customizations": {
